@@ -1,0 +1,4 @@
+<input *ngIf="searchType === 'first_name'" type="text" placeholder="search first name" (change)="filterFirstName($event)">
+<input *ngIf="searchType === 'last_name'" type="text" placeholder="search last name" (change)="filterLastName($event)">
+<input *ngIf="searchType === 'active'" type="checkbox" (change)="filterActive($event)">
+nothing to show
